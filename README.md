@@ -19,11 +19,11 @@ Here’s how it works. The entire domain name localtest.me—and all wildcard en
 
 Examples:
 
-http://localtest.me 
-http://newyork.localtest.me 
-http://mysite.localtest.me 
-http://redirecttest.localtest.me 
-http://sub1.sub2.sub3.localtest.me
+    http://localtest.me 
+    http://newyork.localtest.me 
+    http://mysite.localtest.me 
+    http://redirecttest.localtest.me 
+    http://sub1.sub2.sub3.localtest.me
 
 You name it, just use any *.localtest.me URL that you dream up and it will work for testing on your local system.
 
