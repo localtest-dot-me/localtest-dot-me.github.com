@@ -27,6 +27,17 @@ Examples:
 
 You name it, just use any *.localtest.me URL that you dream up and it will work for testing on your local system.
 
+Troubleshooting
+================
+Your network may have DNS rebinding protection enabled. If so then lookups to `localtest.me` will be unresolved. Quick check: Run `nslookup localtest.me`, if the output does not contain 127.0.0.1 then something in your network is filtering the domain resolution.
+
+Here's a few possible fixes
+
+1. Check your router configuration for DNS rebinding protection. It may be possible to add an exception for `localtest.me`.
+2. Configure your host to use an alternative DNS provider such as [Cloudflare 1.1.1.1](https://developers.cloudflare.com/1.1.1.1/setup/) or [Google 8.8.8.8](https://developers.google.com/speed/public-dns/docs/using).
+
+For more information, see the Wikipedia article on [DNS rebinding](https://en.wikipedia.org/wiki/DNS_rebinding).
+
 More details
 ================
 
